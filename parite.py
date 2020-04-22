@@ -5,6 +5,8 @@ import argparse
 import analysis.csv as c_an
 import analysis.xml as x_an
 
+import logging as lg
+
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-d","--datafile",help="""CSV file containing pieces of
